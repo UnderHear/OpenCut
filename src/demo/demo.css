@@ -34,3 +34,48 @@ body,
   position: fixed;
   inset: 0;
 }
+
+.ec-demo-export-dialog__overlay {
+  position: fixed;
+  z-index: 50;
+  inset: 0;
+  background: rgb(0 0 0 / 60%);
+}
+
+.ec-demo-export-dialog {
+  position: fixed;
+  z-index: 51;
+  top: 50%;
+  left: 50%;
+  width: min(420px, calc(100vw - 32px));
+  max-height: calc(100vh - 32px);
+  padding: 32px;
+  overflow-y: auto;
+  border-radius: 12px;
+  color: #f5f5f5;
+  background: #1d1d1d;
+  box-shadow: 0 24px 64px rgb(0 0 0 / 50%);
+  font-size: 14px;
+  line-height: 1.4;
+  overscroll-behavior: contain;
+  transform: translate(-50%, -50%);
+}
+
+.ec-demo-export-dialog,
+.ec-demo-export-dialog *,
+.ec-demo-export-dialog *::before,
+.ec-demo-export-dialog *::after {
+  box-sizing: border-box;
+}
+
+.ec-demo-export-dialog__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ec-demo-export-dialog__title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 650;
+}

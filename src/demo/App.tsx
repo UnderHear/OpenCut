@@ -116,14 +116,14 @@ export function DemoApp() {
       )}
       <Dialog.Root open={isVideoExporting}>
         <Dialog.Portal>
-          <Dialog.Overlay className='ec-shortcuts-dialog__overlay' />
+          <Dialog.Overlay className='ec-demo-export-dialog__overlay' />
           <Dialog.Content
-            className='ec-shortcuts-dialog'
+            className='ec-demo-export-dialog'
             onEscapeKeyDown={(event) => event.preventDefault()}
             onInteractOutside={(event) => event.preventDefault()}
           >
-            <div className='ec-shortcuts-dialog__header'>
-              <Dialog.Title className='ec-shortcuts-dialog__title'>
+            <div className='ec-demo-export-dialog__header'>
+              <Dialog.Title className='ec-demo-export-dialog__title'>
                 正在导出视频…
               </Dialog.Title>
             </div>
