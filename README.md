@@ -25,7 +25,7 @@
 
 ## 效果图 
 
-[underhear.github.io/EaseCut/](underhear.github.io/EaseCut/)
+[体验地址](https://underhear.github.io/EaseCut/)
 
 <table>
   <tr>
